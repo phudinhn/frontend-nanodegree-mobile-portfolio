@@ -425,20 +425,18 @@ var resizePizzas = function(size) {
   function changePizzaSizes(size) {
     var newWidth;
     // Changes the slider value to a percent width
-    function sizeSwitcher (size) {
-      switch(size) {
-        case "1":
-          newWidth = 25;
-          break;
-        case "2":
-          newWidth = 0.3333;
-          break;
-        case "3":
-          newWidth = 0.5;
-          break;
-        default:
-          console.log("bug in sizeSwitcher");
-      }
+    switch(size) {
+      case "1":
+        newWidth = 25;
+        break;
+      case "2":
+        newWidth = 0.3333;
+        break;
+      case "3":
+        newWidth = 0.5;
+        break;
+      default:
+        console.log("bug in sizeSwitcher");
     }
 
     var randomPizzas = document.querySelectorAll(".randomPizzaContainer");
