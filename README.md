@@ -1,4 +1,9 @@
-## Website Performance Optimization portfolio project
+# Website Performance Optimization portfolio project
+
+## How to view
+
+
+## Optimizations made
 
 ### Changes to index.html
 * Resize pizzeria.jpg to 100x75px
