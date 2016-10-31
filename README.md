@@ -5,6 +5,7 @@
 2. Open index.html in Chrome (moving pizzas in background will not work in Firefox)
 
 ## Optimizations made
+Below is a summary of changes made to optimize this website. A comprehensive list of changes can be seen in the commit history: https://github.com/dwds/frontend-nanodegree-mobile-portfolio/commits/master
 
 ### Changes to index.html
 * Resize pizzeria.jpg to 100x75px
