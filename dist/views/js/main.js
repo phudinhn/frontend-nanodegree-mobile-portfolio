@@ -495,6 +495,8 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var scrollTop = document.body.scrollTop;
+
+  // Use getElementsByClassName instead of querySelectorAll 
   var items = document.getElementsByClassName('mover');
 
   for (var i = 0; i < items.length; i++) {
