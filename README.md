@@ -1,7 +1,8 @@
 # Website Performance Optimization portfolio project
 
 ## How to view
-
+1. Download or clone the project files from: https://github.com/dwds/frontend-nanodegree-mobile-portfolio
+2. Open index.html in Chrome (moving pizzas in background will not work in Firefox)
 
 ## Optimizations made
 
